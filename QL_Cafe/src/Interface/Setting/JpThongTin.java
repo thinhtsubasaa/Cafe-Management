@@ -70,7 +70,6 @@ public class JpThongTin extends javax.swing.JPanel {
         );
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 2, 11)); // NOI18N
-        jLabel3.setText("Version 1.0.0.1.2.3.4.5.6.7.8.9.20");
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(51, 0, 51));

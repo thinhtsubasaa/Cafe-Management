@@ -3,28 +3,32 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="2"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/Images/HOME.png</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/Home/JpHome.java</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/frmLogIn.java</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/QuanLy/DLQl_Sua_Nhom.java</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/BanHang/DLGiamGia.java</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/Images/icon-cash.png</file>
-            <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/Images/cafe-menu-abstract-pattern-brown-colors-coffee-beans-background-32625326.jpg</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/BanHang/JpGoiMon.java</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/BanHang/jpBanHang.java</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/QuanLy/DLQl_Them_Loai.java</file>
+            <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/Images/Logout.png</file>
+            <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/QuanLy/Jp_QLTaiKhoan.java</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/BanHang/DLThanhToan.java</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Models/HoaDon.java</file>
+            <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/QuanLy/Dl_Them_ThucDon.java</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/QuanLy/Dl_Sua_ThucDon.java</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/Setting/JpSetting.java</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/Images/Logo_Cup__Clr_BkGrd_.gif</file>
+            <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/QuanLy/JpQuanLy.java</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/BanHang/jpThucDon.java</file>
-            <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/Images/coffee-twitter-background.jpg</file>
+            <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/QuanLy/Jp_QLNhomMon.java</file>
+            <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Models/ChiTietHD.java</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/frmMain.java</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/Images/file_delete.png</file>
+            <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/QuanLy/DL_Sua_TaiKhoan.java</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/QuanLy/DLQl_Them_Ban.java</file>
+            <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/Images/discount.png</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/Setting/JpThongTin.java</file>
-            <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/Kho/JpKho.java</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Icons/DeleteRed.png</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/Run.java</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Models/DsOrder.java</file>
@@ -32,16 +36,18 @@
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/Images/ico-Table.png</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Models/Ban.java</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Mysql/ConnectSQL.java</file>
-            <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/Images/Cong(+).png</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Models/ThucDon.java</file>
+            <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/QuanLy/DL_Them_TaiKhoan.java</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/Images/file_add.png</file>
+            <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/QuanLy/Jp_QLThucDon.java</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/Setting/JpDoiMk.java</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/Setting/JpGiaoDien.java</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Icons/logo.ico</file>
+            <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/Images/Sound.png</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/QuanLy/DLQl_Sua_Ban.java</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Models/TaiKhoan.java</file>
-            <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/Images/cafe-menu-background-28410418.jpg</file>
             <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/ThongKe/JpThongKe.java</file>
+            <file>file:/D:/Kì%205/SWP391/QL_Cafe/QL_Cafe/QL_Cafe/src/Interface/Images/document_edit.png</file>
         </group>
     </open-files>
 </project-private>

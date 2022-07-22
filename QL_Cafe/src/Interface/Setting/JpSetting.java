@@ -38,8 +38,6 @@ public class JpSetting extends javax.swing.JPanel {
 
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
-        btnGiaoDien = new javax.swing.JButton();
-        btnAmThanh = new javax.swing.JButton();
         btnKhoiPhuc = new javax.swing.JButton();
         btnThongTin = new javax.swing.JButton();
         btnCapNhat = new javax.swing.JButton();
@@ -51,29 +49,6 @@ public class JpSetting extends javax.swing.JPanel {
         jPanel1.setPreferredSize(new java.awt.Dimension(1255, 500));
 
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-
-        btnGiaoDien.setFont(new java.awt.Font("Tahoma", 1, 10)); // NOI18N
-        btnGiaoDien.setForeground(new java.awt.Color(51, 0, 51));
-        btnGiaoDien.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Interface/Images/theme.png"))); // NOI18N
-        btnGiaoDien.setText("GIAO DIỆN");
-        btnGiaoDien.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnGiaoDien.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        btnGiaoDien.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
-        btnGiaoDien.setIconTextGap(7);
-        btnGiaoDien.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnGiaoDienActionPerformed(evt);
-            }
-        });
-
-        btnAmThanh.setFont(new java.awt.Font("Tahoma", 1, 10)); // NOI18N
-        btnAmThanh.setForeground(new java.awt.Color(51, 0, 51));
-        btnAmThanh.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Interface/Images/Sound.png"))); // NOI18N
-        btnAmThanh.setText("ÂM THANH");
-        btnAmThanh.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnAmThanh.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        btnAmThanh.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
-        btnAmThanh.setIconTextGap(7);
 
         btnKhoiPhuc.setFont(new java.awt.Font("Tahoma", 1, 10)); // NOI18N
         btnKhoiPhuc.setForeground(new java.awt.Color(51, 0, 51));
@@ -131,27 +106,21 @@ public class JpSetting extends javax.swing.JPanel {
                     .addComponent(btnCapNhat, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnThongTin, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnKhoiPhuc, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 170, Short.MAX_VALUE)
-                    .addComponent(btnAmThanh, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btnGiaoDien, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnGoCaiDat, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(btnGiaoDien)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btnAmThanh)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(20, 20, 20)
                 .addComponent(btnKhoiPhuc)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(18, 18, 18)
                 .addComponent(btnCapNhat)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(18, 18, 18)
                 .addComponent(btnGoCaiDat)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(18, 18, 18)
                 .addComponent(btnThongTin)
-                .addContainerGap(271, Short.MAX_VALUE))
+                .addContainerGap(298, Short.MAX_VALUE))
         );
 
         JpPaneSetting.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -165,7 +134,7 @@ public class JpSetting extends javax.swing.JPanel {
                 .addContainerGap()
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(JpPaneSetting, javax.swing.GroupLayout.DEFAULT_SIZE, 1035, Short.MAX_VALUE)
+                .addComponent(JpPaneSetting, javax.swing.GroupLayout.DEFAULT_SIZE, 1026, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
@@ -194,16 +163,6 @@ public class JpSetting extends javax.swing.JPanel {
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnGiaoDienActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGiaoDienActionPerformed
-        
-        btnGiaoDien.setPressedIcon(new ImageIcon("down.png"));
-            // TODO add your handling code here:
-            JpGiaoDien gd = new JpGiaoDien();
-            JpPaneSetting.removeAll();
-            JpPaneSetting.add(gd);
-            JpPaneSetting.revalidate();
-    }//GEN-LAST:event_btnGiaoDienActionPerformed
-
     private void btnThongTinActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnThongTinActionPerformed
         JpThongTin tt = new JpThongTin();
             JpPaneSetting.removeAll();
@@ -223,9 +182,7 @@ public class JpSetting extends javax.swing.JPanel {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel JpPaneSetting;
-    private javax.swing.JButton btnAmThanh;
     private javax.swing.JButton btnCapNhat;
-    private javax.swing.JButton btnGiaoDien;
     private javax.swing.JButton btnGoCaiDat;
     private javax.swing.JButton btnKhoiPhuc;
     private javax.swing.JButton btnThongTin;

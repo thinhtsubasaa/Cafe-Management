@@ -6,7 +6,6 @@
 package Interface;
 import Interface.BanHang.jpBanHang;
 import Interface.Home.JpHome;
-import Interface.Kho.JpKho;
 import Interface.QuanLy.JpQuanLy;
 import Interface.Setting.JpSetting;
 import Models.Ban;
@@ -24,6 +23,7 @@ import java.util.Calendar;
 import javazoom.jl.decoder.JavaLayerException;
 import javazoom.jl.player.Player;
 import Interface.ThongKe.JpThongKe;
+
 /**
  *
  * @author ThangIKCU
@@ -46,7 +46,7 @@ public final class frmMain extends javax.swing.JFrame {
         {
             btnQuanLy.setEnabled(false);
             btnThongKe.setEnabled(false);
-            btnKho.setEnabled(false);
+       
        }
         
        
@@ -96,7 +96,6 @@ public final class frmMain extends javax.swing.JFrame {
     MP3 mp3;
     jpBanHang banhang;
     JpHome home ;
-    JpKho kho;
     JpSetting Set;
     JpQuanLy ql;
     JpThongKe tk ;
@@ -137,15 +136,6 @@ public final class frmMain extends javax.swing.JFrame {
                 jpLayout.add(tk);
                 mp3 = new MP3 ("src/Sound/kasya.MP3");
                 mp3.play();
-                break;
-            case 5:
-                if (kho == null) {
-                    kho = new JpKho();
-                }   
-                btnKho.setPressedIcon(new ImageIcon("down.png"));
-                mp3 = new MP3 ("src/Sound/kasya.MP3");
-                mp3.play();
-                jpLayout.add(kho);
                 break;
             case 6:
                 if (Set == null) {
@@ -211,7 +201,6 @@ public final class frmMain extends javax.swing.JFrame {
         btnQuanLy = new javax.swing.JButton();
         btnBanHang = new javax.swing.JButton();
         btnThongKe = new javax.swing.JButton();
-        btnKho = new javax.swing.JButton();
         jpLayout = new javax.swing.JPanel();
         btnthoat = new javax.swing.JButton();
         btnTrangChu = new javax.swing.JButton();
@@ -232,7 +221,6 @@ public final class frmMain extends javax.swing.JFrame {
         setLocation(new java.awt.Point(0, 0));
         setLocationByPlatform(true);
         setUndecorated(true);
-        setPreferredSize(new java.awt.Dimension(1280, 600));
         setResizable(false);
         setSize(new java.awt.Dimension(0, 0));
         addMouseListener(new java.awt.event.MouseAdapter() {
@@ -289,17 +277,6 @@ public final class frmMain extends javax.swing.JFrame {
         btnThongKe.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnThongKeActionPerformed(evt);
-            }
-        });
-
-        btnKho.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        btnKho.setForeground(new java.awt.Color(51, 51, 51));
-        btnKho.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Interface/Images/kho.png"))); // NOI18N
-        btnKho.setText("KHO-NVL");
-        btnKho.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnKho.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnKhoActionPerformed(evt);
             }
         });
 
@@ -407,11 +384,9 @@ public final class frmMain extends javax.swing.JFrame {
                         .addComponent(btnQuanLy, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addComponent(btnThongKe)
-                        .addGap(18, 18, 18)
-                        .addComponent(btnKho)
-                        .addGap(18, 18, 18)
+                        .addGap(26, 26, 26)
                         .addComponent(btnThietLap)
-                        .addGap(18, 18, 18)
+                        .addGap(163, 163, 163)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(lbltime)
                             .addComponent(lbldat)
@@ -445,7 +420,6 @@ public final class frmMain extends javax.swing.JFrame {
                             .addGap(3, 3, 3))
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(btnThongKe, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(btnKho, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(btnThietLap)
                             .addComponent(lblpv)))
                     .addGroup(jPanel2Layout.createSequentialGroup()
@@ -529,10 +503,6 @@ public final class frmMain extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_formMouseClicked
 
-    private void btnKhoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnKhoActionPerformed
-        reloadPanel(5);
-    }//GEN-LAST:event_btnKhoActionPerformed
-
     private void btnThongKeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnThongKeActionPerformed
         reloadPanel(4);
 //        this.dispose();
@@ -568,28 +538,27 @@ public final class frmMain extends javax.swing.JFrame {
         
     }//GEN-LAST:event_btnTrangChuMousePressed
     MP3 nhacnen;
-    private void btnSoundActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSoundActionPerformed
-        // TODO add your handling code here:
-        nhacnen = new MP3 ("src/Sound/Fur Elise - Richard Clayderman.MP3");
-        nhacnen.play();
-        btnSound.setVisible(false);
-        btnmute.setVisible(true);
-        
-        
-    }//GEN-LAST:event_btnSoundActionPerformed
-
-    private void btnmuteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnmuteActionPerformed
-       nhacnen.stop();
-       btnSound.setVisible(true);
-       btnmute.setVisible(false);
-    }//GEN-LAST:event_btnmuteActionPerformed
-
     private void btnQuanLyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnQuanLyActionPerformed
         // TODO add your handling code here:
         
         reloadPanel(3);
         
     }//GEN-LAST:event_btnQuanLyActionPerformed
+
+    private void btnmuteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnmuteActionPerformed
+        nhacnen.stop();
+        btnSound.setVisible(true);
+        btnmute.setVisible(false);
+    }//GEN-LAST:event_btnmuteActionPerformed
+
+    private void btnSoundActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSoundActionPerformed
+        // TODO add your handling code here:
+        nhacnen = new MP3 ("src/Sound/Fur Elise - Richard Clayderman.MP3");
+        nhacnen.play();
+        btnSound.setVisible(false);
+        btnmute.setVisible(true);
+
+    }//GEN-LAST:event_btnSoundActionPerformed
 
     /**
      * @param args the command line arguments
@@ -598,7 +567,6 @@ public final class frmMain extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnBanHang;
-    private javax.swing.JButton btnKho;
     private javax.swing.JButton btnQuanLy;
     private javax.swing.JButton btnSound;
     private javax.swing.JButton btnThietLap;

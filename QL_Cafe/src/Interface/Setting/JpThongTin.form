@@ -166,7 +166,6 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="11" style="2"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Version 1.0.0.1.2.3.4.5.6.7.8.9.20"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel4">

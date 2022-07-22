@@ -59,8 +59,8 @@ public class DLThanhToan extends javax.swing.JDialog {
         setUndecorated(true);
         setResizable(false);
 
-        jPanel1.setBackground(new java.awt.Color(216, 226, 67));
-        jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(51, 0, 51)));
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
 
         lblTongTien.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         lblTongTien.setForeground(new java.awt.Color(220, 33, 33));

@@ -25,7 +25,7 @@ public class ConnectSQL {
     
     public ConnectSQL(){
         try{
-            cn = DriverManager.getConnection("jdbc:mysql://localhost:3306/quanly?useUnicode=true&characterEncoding=utf8", "root", "");
+            cn = DriverManager.getConnection("jdbc:mysql://localhost:3306/quanlycaphee?useUnicode=true&characterEncoding=utf8", "root", "");
         }catch(SQLException ex){
             JOptionPane.showMessageDialog(null, "Kết nối thất bại !");
         }        
